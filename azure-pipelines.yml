@@ -7,6 +7,7 @@ resources:
   repositories:
     - repository: gameoflife
       type: GitHub
+      endpoint: MyGitHubServiceConnection
       name: shashi4c2/gameoflife
       ref: main
       trigger:
