@@ -13,6 +13,9 @@ resources:
       trigger:
       - master
 
+trigger:
+- main
+
 pool:
   vmImage: ubuntu-latest
 
