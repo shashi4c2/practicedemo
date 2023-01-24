@@ -9,7 +9,7 @@ resources:
       type: GitHub
       endpoint: MyGitHubServiceConnection
       name: shashi4c2/gameoflife
-      ref: main
+      ref: master
       trigger:
       - master
 
