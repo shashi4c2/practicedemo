@@ -8,7 +8,7 @@ resources:
     - repository: gameoflife
       type: GitHub
       name: shashi4c2/gameoflife
-      ref: master
+      ref: main
       trigger:
       - master
 
