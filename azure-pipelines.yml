@@ -11,7 +11,7 @@ resources:
     - repository: gameoflife
       type: GitHub
       endpoint: MyGitHubServiceConnection
-      name: shashi4c2/gameoflife
+      name: gameoflife
       trigger:
       - master
 
@@ -23,7 +23,7 @@ pool:
 steps:
 - task: Maven@4
   inputs:
-    mavenPomFile: 'shashi4c2/gameoflife/pom.xml'
+    mavenPomFile: 'pom.xml'
     publishJUnitResults: true
     testResultsFiles: '**/surefire-reports/TEST-*.xml'
     javaHomeOption: 'JDKVersion'
