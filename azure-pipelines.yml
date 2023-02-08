@@ -11,7 +11,7 @@ resources:
     - repository: gameoflife
       type: GitHub
       endpoint: MyGitHubServiceConnection
-      name: gameoflife
+      name: shashi4c2/gameoflife
       trigger:
       - master
 
