@@ -21,7 +21,6 @@ pool:
 
 steps:
   checkout: self
-  checkout: Sample-project
 
 steps:
 - task: Maven@4
