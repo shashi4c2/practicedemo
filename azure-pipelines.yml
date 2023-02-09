@@ -11,8 +11,7 @@ resources:
     - repository: Sample-project
       type: Git
       name: shashikiran4c2/Sample-project
-      trigger:
-      - master
+      ref: master
 
 
 
