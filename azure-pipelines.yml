@@ -10,7 +10,7 @@ resources:
   repositories:
     - repository: Sample-project
       type: Git
-      name: shashikiran4c2/Sample-project
+      name: Sample-project
       ref: master
 
 
