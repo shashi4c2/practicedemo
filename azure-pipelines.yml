@@ -8,10 +8,9 @@ trigger:
 
 resources:
   repositories:
-    - repository: gameoflife
-      type: GitHub
-      endpoint: MyGitHubServiceConnection
-      name: shashi4c2/gameoflife
+    - repository: Sample-project
+      type: Git
+      name: shashikiran4c2/Sample-project
       trigger:
       - master
 
