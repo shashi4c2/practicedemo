@@ -24,7 +24,7 @@ pool:
   vmImage: windows-latest
 
 steps:
-- checkout: self
+- checkout: Sample-project
 - task: Maven@4
   inputs:
     mavenPomFile: 'pom.xml'
