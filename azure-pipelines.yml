@@ -11,7 +11,6 @@ resources:
     - repository: Sample-project
       type: Git
       name: Sample-project
-      ref: refs/head/master
       trigger:
         branches:
           include:
