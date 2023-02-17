@@ -24,6 +24,7 @@ pool:
 
 steps:
 - checkout: Self
+- checkout: Sample-project
 - task: Maven@4
   inputs:
     mavenPomFile: 'pom.xml'
